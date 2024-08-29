@@ -385,16 +385,16 @@ html {
     padding: 40px 20px;
     background-color: #f8f8f8;
     text-align: center;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     /* 将子元素排列为列 */
 }
 
 .top-section {
-    display: flex;
+    /* display: flex; */
     justify-content: space-around;
     margin-bottom: 100PX;
-    margin-top: 80%;
+    margin-top: 100%;
     width: 10%;
 
 }
@@ -439,7 +439,7 @@ html {
 }
 
 .carousel-container {
-    width: 80%;
+    width: 100%;
     height: auto;
     flex-grow: 0.1;
     /* 调整图片占用的空间比例 */
@@ -614,7 +614,7 @@ html {
     }
 
     .interview1, .interview2 {
-        width: 70%; /* Full width on mobile */
+        width: 85%; /* Full width on mobile */
         padding: 0px; /* Optional: remove padding on mobile */
         margin-bottom: 20px; /* Space between items */
     }
