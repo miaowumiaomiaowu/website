@@ -614,7 +614,7 @@ html {
     }
 
     .interview1, .interview2 {
-        width: 85%; /* Full width on mobile */
+        width: 100%; /* Full width on mobile */
         padding: 0px; /* Optional: remove padding on mobile */
         margin-bottom: 20px; /* Space between items */
     }
